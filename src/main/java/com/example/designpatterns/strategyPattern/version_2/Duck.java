@@ -1,6 +1,5 @@
 package com.example.designpatterns.strategyPattern.version_2;
 
-// 所有鸭子都会飞 不正常
 public abstract class Duck {
     public Duck() {
         System.out.println("------------------------------------");
