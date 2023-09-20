@@ -1,4 +1,4 @@
-package com.example.designpatterns.strategyPattern.version_3;
+package com.example.designpatterns.strategyPattern.version_4;
 
 /**
  * Duck 对象只要叫 [quackBehavior] 对象去【呱呱叫】就可与了，在这部分代码中，我们不在乎 [quackBehavior] 接口的对象到底是什么，我们只关心该对象知道如何进行【呱呱叫】就够了。
@@ -29,7 +29,17 @@ public abstract class Duck {
     }
 
     public void swim() {
-        System.out.println("all duck float，even decoys！");
+        System.out.println("漂浮在水面上。");
+    }
+
+    // 通过这两个 setter 函数，我们可以随时调用这两个方法改变鸭子的行为
+
+    public void setQuackBehavior(QuackBehavior qb) {
+        this.quackBehavior = qb;
+    }
+
+    public void setFlyBehavior(FlyBehavior fb) {
+        this.flyBehavior = fb;
     }
 }
 
