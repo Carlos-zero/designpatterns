@@ -1,3 +1,5 @@
+package com.example.designpatterns.factoryPattern.version_5_工厂模式官方;
+
 public class PizzaTestDrive {
  
 	public static void main(String[] args) {

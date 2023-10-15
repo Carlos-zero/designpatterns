@@ -1,4 +1,4 @@
-package com.example.designpatterns.factoryPattern.version_3;
+package com.example.designpatterns.factoryPattern.version_3_简单工厂模式我的;
 
 public class GreekPizza extends Pizza {
     public void prepare() {

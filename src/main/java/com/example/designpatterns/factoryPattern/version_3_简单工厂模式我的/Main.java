@@ -1,4 +1,4 @@
-package com.example.designpatterns.factoryPattern.version_3;
+package com.example.designpatterns.factoryPattern.version_3_简单工厂模式我的;
 
 /**
  * 当子类型有多种的情况下下，每当需要新增子类时，就需要修改【orderPizza】，违背了开闭原则

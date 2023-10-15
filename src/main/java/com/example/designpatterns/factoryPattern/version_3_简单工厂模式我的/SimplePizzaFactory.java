@@ -1,4 +1,4 @@
-package com.example.designpatterns.factoryPattern.version_3;
+package com.example.designpatterns.factoryPattern.version_3_简单工厂模式我的;
 
 /**
  * 简单工厂，将【version_2】中的实例化部分抽取出来

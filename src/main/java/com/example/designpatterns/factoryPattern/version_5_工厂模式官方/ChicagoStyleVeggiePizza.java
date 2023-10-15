@@ -1,3 +1,5 @@
+package com.example.designpatterns.factoryPattern.version_5_工厂模式官方;
+
 public class ChicagoStyleVeggiePizza extends Pizza {
 	public ChicagoStyleVeggiePizza() {
 		name = "Chicago Deep Dish Veggie Pizza";
