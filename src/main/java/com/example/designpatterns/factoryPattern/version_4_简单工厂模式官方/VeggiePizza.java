@@ -2,7 +2,7 @@ package com.example.designpatterns.factoryPattern.version_4_简单工厂模式�
 
 public class VeggiePizza extends Pizza {
 	public VeggiePizza() {
-		name = "Veggie Pizza";                  // 全素披萨
+		name = "Veggie com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.Pizza";                  // 全素披萨
 		dough = "Crust";                        // 面包皮
 		sauce = "Marinara sauce";               // Marinara酱
 		toppings.add("Shredded mozzarella");    // 马苏里拉奶酪丝

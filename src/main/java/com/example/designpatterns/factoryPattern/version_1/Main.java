@@ -21,10 +21,10 @@ public class Main {
 /*
 
 
-Pizza prepare !
-Pizza bake !
-Pizza cut !
-Pizza box !
+com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.Pizza prepare !
+com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.Pizza bake !
+com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.Pizza cut !
+com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.Pizza box !
 
 
  */

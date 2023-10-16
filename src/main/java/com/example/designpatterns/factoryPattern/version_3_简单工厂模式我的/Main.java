@@ -14,10 +14,10 @@ public class Main {
 /*
 
 
-CheesePizza prepare !
-CheesePizza bake !
-CheesePizza cut !
-CheesePizza box !
+com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.CheesePizza prepare !
+com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.CheesePizza bake !
+com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.CheesePizza cut !
+com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.CheesePizza box !
 
 
  */
