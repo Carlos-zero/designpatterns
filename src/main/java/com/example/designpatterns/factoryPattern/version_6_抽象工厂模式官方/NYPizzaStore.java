@@ -16,22 +16,22 @@ public class NYPizzaStore extends PizzaStore {
 
             // 把工厂传递给每一个披萨，以便披萨能从工厂中获取原料
             pizza = new CheesePizza(ingredientFactory);
-            pizza.setName("New York Style com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Ingredient.I.Cheese com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.Pizza");
+            pizza.setName("New York Style Cheese Pizza");
 
         } else if (item.equals("veggie")) {
 
             pizza = new VeggiePizza(ingredientFactory);
-            pizza.setName("New York Style Veggie com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.Pizza");
+            pizza.setName("New York Style Veggie Pizza");
 
         } else if (item.equals("clam")) {
 
             pizza = new ClamPizza(ingredientFactory);
-            pizza.setName("New York Style Clam com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.Pizza");
+            pizza.setName("New York Style Clam Pizza");
 
         } else if (item.equals("pepperoni")) {
 
             pizza = new PepperoniPizza(ingredientFactory);
-            pizza.setName("New York Style com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Ingredient.I.Pepperoni com.example.designpatterns.factoryPattern.version_6_抽象工厂模式官方.Pizza.Pizza");
+            pizza.setName("New York Style Pepperoni Pizza");
 
         }
         return pizza;
