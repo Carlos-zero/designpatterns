@@ -1,4 +1,4 @@
-package com.example.designpatterns.mediatorPattern;
+package com.example.designpatterns.mediatorPattern.example1;
 
 public class Main {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.example.designpatterns.mediatorPattern;
+package com.example.designpatterns.mediatorPattern.example1;
 
 /**
  * 具体中介者

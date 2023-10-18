@@ -1,4 +1,4 @@
-package com.example.designpatterns.mediatorPattern;
+package com.example.designpatterns.mediatorPattern.example1;
 
 /**
  * 抽象中介者类
