@@ -12,7 +12,7 @@ public class ConcreteColleague1 extends Colleague {
         mediator.Send(message, this);
     }
 
-    // 
+    // 其实就是接收消息的函数
     public void Notify(String message) {
         System.out.println("Colleague1 received：" + message);
     }
