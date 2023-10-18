@@ -1,4 +1,4 @@
-package com.example.designpatterns.MediatorPattern;
+package com.example.designpatterns.mediatorPattern;
 
 /**
  * 抽象同事类
@@ -10,4 +10,7 @@ abstract class Colleague {
     public Colleague(Mediator mediator) {
         this.mediator = mediator;
     }
+
+    abstract void Send(String message);
+    abstract void Notify(String message);
 }

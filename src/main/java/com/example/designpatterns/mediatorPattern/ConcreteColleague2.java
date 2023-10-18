@@ -1,4 +1,4 @@
-package com.example.designpatterns.MediatorPattern;
+package com.example.designpatterns.mediatorPattern;
 
 public class ConcreteColleague2 extends Colleague {
     public ConcreteColleague2(Mediator mediator) {
@@ -11,6 +11,6 @@ public class ConcreteColleague2 extends Colleague {
     }
 
     public void Notify(String message) {
-        System.out.println("Received_2：" + message);
+        System.out.println("Colleague2 received：" + message);
     }
 }

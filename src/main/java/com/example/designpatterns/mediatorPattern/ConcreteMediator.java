@@ -1,11 +1,13 @@
-package com.example.designpatterns.MediatorPattern;
+package com.example.designpatterns.mediatorPattern;
 
 /**
  * 具体中介者
  */
 public class ConcreteMediator extends Mediator {
+    // 对象
     private Colleague concreteColleague1;
     private Colleague concreteColleague2;
+
     public void setConcreteColleague1(Colleague concreteColleague1) {
         this.concreteColleague1 = concreteColleague1;
     }
@@ -16,10 +18,10 @@ public class ConcreteMediator extends Mediator {
 
     @Override
     public void Send(String message, Colleague colleague) {
-        if (colleague == concreteColleague1) {
-            concreteColleague1
-        } else if (colleague == concreteColleague2) {
-
+        if (colleague instanceof ConcreteColleague1) {
+            concreteColleague2.Notify(message);
+        } else if (colleague instanceof ConcreteColleague2) {
+            concreteColleague1.Notify(message);
         }
     }
 }
