@@ -1,11 +1,13 @@
-package com.example.designpatterns.IteratorPattern.version_n;
+package com.example.designpatterns.IteratorPattern.version_3;
 
 import java.util.*;
-     
+
+/**
+ * 最终完全版本，这里优化了一下，使用ArrayList来存储menus，然后在打印Menu的时候就也可以使用Iterator了
+ */
 public class Waitress {
 	ArrayList<Menu> menus;
      
-  
 	public Waitress(ArrayList<Menu> menus) {
 		this.menus = menus;
 	}

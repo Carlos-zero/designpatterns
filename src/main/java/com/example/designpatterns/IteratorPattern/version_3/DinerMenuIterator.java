@@ -1,4 +1,4 @@
-package com.example.designpatterns.IteratorPattern.version_n;
+package com.example.designpatterns.IteratorPattern.version_3;
 
 import java.util.Iterator;
   
